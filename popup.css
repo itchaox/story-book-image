@@ -1,0 +1,46 @@
+/* Chrome扩展程序popup样式 */
+body {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text-display {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.export-btn {
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  width: 120px;
+  height: 36px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.export-btn:hover {
+  background-color: #3367d6;
+}
+
+.export-btn:active {
+  background-color: #2851a3;
+}
